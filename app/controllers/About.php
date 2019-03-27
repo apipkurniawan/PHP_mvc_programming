@@ -24,7 +24,6 @@ class About extends Controller{
 	public function page()
 	{
 		$data['judul'] = 'Pages'; // untuk memberi judul
-
 		// memanggil view
 		$this->view('templates/header', $data);
 		$this->view('about/page');
