@@ -36,6 +36,7 @@
 			  <input type="text" readonly value="<?= $data['pekerjaan']; ?>">
             </div>
           </div>
+			
           <div class="row">
             <div class="col-sm">
               <input type="text" disabled value="No. HP">
